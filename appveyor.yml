@@ -1,0 +1,14 @@
+version: 1.0.{build}
+os: Visual Studio 2015
+install:
+- ps: >-
+    ./InstallDnx.ps1
+build:
+  verbosity: minimal
+after_build:
+- dnu pack --framework dotnet --configuration release src/Ratp.RatpApi
+test_script:
+- dnx --project test/Ratp.RatpApi.Test test
+artifacts:
+- path: src/Ratp.RatpApi/bin/release/*.nupkg
+  name: Ratp.RatpApi

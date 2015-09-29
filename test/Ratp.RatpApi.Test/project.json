@@ -1,0 +1,20 @@
+{
+  "version": "1.0.0-*",
+  "description": "Ratp.RatpApi.Test Class Library",
+  "authors": [ "conta" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+  "frameworks": {
+    "dnxcore50": {
+      "dependencies": {
+        "Ratp.RatpApi": "1.0.0-*",
+        "xunit": "2.1.0",
+        "xunit.runner.dnx": "2.1.0-beta5a-build188"
+      }
+    }
+  },
+    "commands": {
+        "test": "xunit.runner.dnx"
+    }
+}
