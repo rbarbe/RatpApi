@@ -1,0 +1,23 @@
+﻿{
+  "version": "1.0.0-*",
+  "title": "Ratp Web Service Client",
+  "description": "Ratp Web Service Client",
+  "authors": [ "Roland Barbe" ],
+  "owners": [ "Roland Barbe" ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rbarbe/RatpApi"
+  },
+  "tags": [ "ratp", "metro", "bus", "rer", "tramway", "transilien", "navigo" ],
+  "projectUrl": "https://github.com/rbarbe/RatpApi",
+  "licenseUrl": "https://raw.githubusercontent.com/rbarbe/RatpApi/master/LICENSE",
+  "frameworks": {
+    "dotnet": { },
+    "dnxcore50": { }
+  },
+  "dependencies": {
+    "System.Collections": "4.0.10",
+    "System.Linq": "4.0.0",
+    "System.Net.Http": "4.0.0"
+  }
+}

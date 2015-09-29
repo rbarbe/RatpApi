@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{79823CF5-C453-49A7-BA97-7711A27FB353}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Ratp.RatpApi", "src\Ratp.RatpApi\Ratp.RatpApi.xproj", "{D863E317-C08B-4EEF-ADB6-8C191C8AB241}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{B42AAA6E-F3B9-402E-809F-9A0F541F71CD}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Ratp.RatpApi.Test", "test\Ratp.RatpApi.Test\Ratp.RatpApi.Test.xproj", "{7B5E7D27-25B7-4B33-80E4-A0CDDD140134}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E8EE7544-1EC8-481A-B7CE-B7F40DEFDC68}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D863E317-C08B-4EEF-ADB6-8C191C8AB241}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D863E317-C08B-4EEF-ADB6-8C191C8AB241}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D863E317-C08B-4EEF-ADB6-8C191C8AB241}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D863E317-C08B-4EEF-ADB6-8C191C8AB241}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B5E7D27-25B7-4B33-80E4-A0CDDD140134}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B5E7D27-25B7-4B33-80E4-A0CDDD140134}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B5E7D27-25B7-4B33-80E4-A0CDDD140134}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B5E7D27-25B7-4B33-80E4-A0CDDD140134}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D863E317-C08B-4EEF-ADB6-8C191C8AB241} = {79823CF5-C453-49A7-BA97-7711A27FB353}
+		{7B5E7D27-25B7-4B33-80E4-A0CDDD140134} = {B42AAA6E-F3B9-402E-809F-9A0F541F71CD}
+	EndGlobalSection
+EndGlobal
